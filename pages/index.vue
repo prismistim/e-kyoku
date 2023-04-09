@@ -1,3 +1,5 @@
 <template>
-  <div>aaa</div>
+  <NuxtLayout>
+    <PostCard />
+  </NuxtLayout>
 </template>
