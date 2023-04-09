@@ -3937,6 +3937,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-tailwindcss@npm:^3.11.0":
+  version: 3.11.0
+  resolution: "eslint-plugin-tailwindcss@npm:3.11.0"
+  dependencies:
+    fast-glob: ^3.2.5
+    postcss: ^8.4.4
+  peerDependencies:
+    tailwindcss: ^3.2.2
+  checksum: d5a3a9092770d832d74f10388c25213d553ae0873d5f2ee978c7214a65859efc112d194744aefe8b9002f307f3ea87bd5ffd80d426e12c83dd5701c29a8ac2a9
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-unicorn@npm:^44.0.2":
   version: 44.0.2
   resolution: "eslint-plugin-unicorn@npm:44.0.2"
@@ -4239,7 +4251,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.7, fast-glob@npm:^3.2.9":
+"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.5, fast-glob@npm:^3.2.7, fast-glob@npm:^3.2.9":
   version: 3.2.12
   resolution: "fast-glob@npm:3.2.12"
   dependencies:
@@ -7564,7 +7576,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.0.9, postcss@npm:^8.1.10, postcss@npm:^8.2.15, postcss@npm:^8.4.21":
+"postcss@npm:^8.0.9, postcss@npm:^8.1.10, postcss@npm:^8.2.15, postcss@npm:^8.4.21, postcss@npm:^8.4.4":
   version: 8.4.21
   resolution: "postcss@npm:8.4.21"
   dependencies:
@@ -7977,6 +7989,7 @@ __metadata:
     "@nuxtjs/tailwindcss": ^6.6.4
     "@vueuse/nuxt": ^9.13.0
     eslint: ^8.36.0
+    eslint-plugin-tailwindcss: ^3.11.0
     nuxt: ^3.3.1
     twitter-api-sdk: ^1.2.1
     typescript: ^5.0.2
